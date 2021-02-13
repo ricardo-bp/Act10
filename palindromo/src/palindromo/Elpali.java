@@ -13,9 +13,9 @@ public class Elpali {
 		String palabra2 = sc.nextLine();
 		
 		if(palindromo(palabra1,palabra2) == true) {
-			System.out.print("Es un palindromo");
+			System.out.print("Es palindromo");
 		}else {
-			System.out.print("No es un palindromo");
+			System.out.print("No es palindromo");
 		}
 		
 	} 
