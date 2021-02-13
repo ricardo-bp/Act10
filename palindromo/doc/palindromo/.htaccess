@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Area restringida para administradores"
+AuthUserFile /etc/apache2/todo-empresa-tarea-daw02/passwd
+AuthGroupFile /etc/apache2/todo-empresa-tarea-daw02/roles
+Require group admin
